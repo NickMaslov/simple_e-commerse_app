@@ -30,7 +30,6 @@ export class Shop extends Component {
               products={this.props.products}
               addToCart={this.handleAddToCart}
             />
-            />
           </div>
         </div>
       </div>

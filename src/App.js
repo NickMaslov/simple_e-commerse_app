@@ -7,7 +7,7 @@ import {
   Switch,
   Redirect
 } from "react-router-dom";
-import { ShopConnector } from "./shop/ShopConnector";
+import { ShopConnector } from "./connectors/ShopConnector";
 
 export default class App extends Component {
   render() {

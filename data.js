@@ -17,6 +17,7 @@ module.exports = function() {
   return {
     categories: categories,
     products: data,
-    orders: []
+    orders: [],
+    books: ["one", "two"]
   };
 };

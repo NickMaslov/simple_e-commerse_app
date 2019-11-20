@@ -9,7 +9,6 @@ const port = process.argv[3] || 3500;
 let router = undefined;
 
 const app = express();
-
 const createServer = () => {
   delete require.cache[require.resolve(fileName)];
   setTimeout(() => {

@@ -3,12 +3,12 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from "react-redux";
 import * as ShopActions from "../data/ActionCreators";
 import { DataTypes } from "../data/Types";
-import { Shop } from "../shop/Shop";
+import { Shop } from "./Shop";
 import * as CartActions from "../data/CartActionCreators";
-import { CartDetails } from "../shop/CartDetails";
+import { CartDetails } from "./CartDetails";
 import { DataGetter } from "../data/DataGetter";
-import { Checkout } from "../shop/Checkout";
-import { Thanks } from "../shop/Thanks";
+import { Checkout } from "./Checkout";
+import { Thanks } from "./Thanks";
 
 const mapDispatchToProps = { ...ShopActions, ...CartActions };
 

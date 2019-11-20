@@ -15,7 +15,8 @@ export class OrdersRow extends Component {
 
   render = () => (
     <tr>
-      <td>{this.props.order.id}</td> <td>{this.props.order.name}</td>
+      <td>{this.props.order.id}</td>
+      <td>{this.props.order.name}</td>
       <td>{this.props.order.email}</td>
       <td className="text-right">
         ${this.calcTotal(this.props.order.products)}
